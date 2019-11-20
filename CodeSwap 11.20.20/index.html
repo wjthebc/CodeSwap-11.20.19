@@ -1,0 +1,61 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!--References bootstrap stylesheet-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body style="margin: 20px">
+     <!--
+Companies will actually appear in the table when companies in the DB have >1 offer.
+
+When users click a link and are directed to a site, they will be emailed with the confirmation link that the offer was completed
+-->
+<div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-2">
+            <!--Styles header-->
+            <div style="text-align:right">
+            <button type="button" class="btn btn-primary">Sign Up</button>
+            <button type="button" class="btn btn-primary">Log In</button>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-2">
+            <!--Styles header-->
+              <div>
+                <br/>
+                <p>Welcome to CodeSwap! To begin swapping codes and saving money, please sign up.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-2">
+            <!--Styles header-->
+              <div>
+                  <h1 style="text-align center">Current Offers</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-2">
+              <table class="table" style="font-size:18px">
+            <thead>
+              <tr>
+                <th scope="col">Offer</th>
+                <th scope="col">Cost</th>
+                <th scope="col">Credit Earned</th>
+              </tr>
+            </thead>
+            <!-- result pulls on company_db JSON file. will eventually pull from SQL -->
+            <tbody id = "result">
+            </tbody>
+          </table>
+        </div>
+      </div>
+</div>
+    <!--References main JS file-->
+    <script src="./current.js"></script>
+
+  </body>

@@ -1,0 +1,37 @@
+[
+        {
+          "name": "Uber",
+          "promo_worth": "5",
+          "user_cost": "1",
+          "offer_count": "1000",
+          "current_link": "https://auth.uber.com/login/?uber_client_name=riderSignUp&"
+        },
+        {
+          "name": "Hellofresh",
+          "promo_worth": "30",
+          "user_cost": "30",
+          "offer_count": "75",
+          "current_link": "https://www.hellofresh.com/plans/?c=PT-WYYBUSO0X"
+        },
+        {
+          "name": "Lyft",
+          "promo_worth": "5",
+          "user_cost": "1",
+          "offer_count": "500",
+          "current_link": "https://www.lyft.com/drive-with-lyft?utm_source=google&utm_medium=cpc&utm_campaign=PAID_DAX_SRCH_US_DCA_WEB_DESK_BRND_LYFT_EXACT&adgroup=lyft-signup_NA_NA&utm_term=lyft%20signup&device=c&matchtype=e&targetid=kwd-296155994866&loc_physical_ms=9007535&loc_interest_ms=&network=g&devicemodel=&adposition=1t2&campaign_id=1408380610&ad_id=338968232317&adgroup_id=59270514441&placement=&ref=DCA180015530P&adname=AC-AG-AdRel-Migration&gclid=CjwKCAjw-7LrBRB6EiwAhh1yXwDeE3zRcdyBupyjbdyp3cGCCn7h4LolgrSJbjFM72ZnnfTH-510nBoCqEoQAvD_BwE"
+        },
+        {
+          "name": "Blue Apron",
+          "promo_worth": "30",
+          "user_cost": "30",
+          "offer_count": "1000",
+          "current_link": "https://www.blueapron.com/users/sign_up"
+        },
+        {
+          "name": "Vegetable + Butcher",
+          "promo_worth": "50",
+          "user_cost": "0",
+          "offer_count": "0",
+          "current_link": "https://vegetableandbutcher.com/pages/step-one/"
+        }
+    ]

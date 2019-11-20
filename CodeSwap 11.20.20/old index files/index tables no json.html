@@ -1,0 +1,74 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--References bootstrap stylesheet-->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<!--References loader stylesheet-->
+<link rel="stylesheet" href="./loader.css">
+</head>
+<body style="margin: 20px">
+<div class="divcenter" style="border-style: solid;
+  border-width: 5px;">
+  <header>
+  <div style="text-align:right">
+  <button type="button" class="btn btn-primary">Sign Up</button>
+  <button type="button" class="btn btn-primary">Log In</button>
+  </div>
+  <header>
+    <p style="padding:10px">Welcome to CodeSwap! To begin swapping codes and saving money, please sign up.</p>
+  <h1 class="textcenter">Current Offers<h1>
+     <!--
+Companies will actually appear in the table when companies in the DB have >1 offer.
+
+When users click a link and are directed to a site, they will be emailed with the confirmation link that the offer was completed
+-->
+    <table class="table" style="font-size:18px">
+  <thead>
+    <tr>
+
+      <th scope="col">Offer</th>
+      <th scope="col">Cost</th>
+      <th scope="col">Credit Earned</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+
+
+      <th scope="row">
+        <!--Link must auto-update when offer is used. Shit. What if two people hit the page at once and end up using the same link?
+-->
+      <img src="https://cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg" class="logo">
+      <td>$30+</td>
+      <td>$30</td>
+    </tr>
+    <tr>
+      <th scope="row">
+          <button type="button" class="btn btn-primary">Blue Apron</button></th></th>
+      <td>$30+</td>
+      <td>$30</td>
+    </tr>
+    <tr>
+      <th scope="row">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDQJPSWu6is95IjqHx3zHI4MudoUO09Su9sm1EdKjkgLECtjPh" class="logo">
+      </th></th></th>
+      <td>$1+</td>
+      <td>$5</td>
+
+
+
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--References main JS file-->
+    <script src="./script.js"></script>
+
+  </body>

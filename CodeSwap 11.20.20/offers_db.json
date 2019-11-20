@@ -1,0 +1,64 @@
+[
+        {
+          "offer_id": 1,
+          "company_id": "test",
+          "buyer_user_id": "test",
+          "seller_user_id": "test",
+          "user_cost": "1",
+          "promo_worth": "5",
+          "seller_status": "test",
+          "user_status": "test",
+          "active": "test",
+          "offer_created": "timestamp",
+          "offer_link": "https://auth.uber.com/login/?uber_client_name=riderSignUp&"
+        },
+        {
+          "offer_id": 2,
+          "company_id": "test",
+          "buyer_user_id": "test",
+          "seller_user_id": "test",
+          "user_cost": "1",
+          "promo_worth": "5",
+          "seller_status": "test",
+          "user_status": "test",
+          "active": "test",
+          "offer_created": "timestamp",
+          "offer_link": "https://auth.uber.com/login/?uber_client_name=riderSignUp&"
+        },{
+          "offer_id": 3,
+          "company_id": "test",
+          "buyer_user_id": "test",
+          "seller_user_id": "test",
+          "user_cost": "1",
+          "promo_worth": "5",
+          "seller_status": "test",
+          "user_status": "test",
+          "active": "test",
+          "offer_created": "timestamp",
+          "offer_link": "https://auth.uber.com/login/?uber_client_name=riderSignUp&"
+        },{
+          "offer_id": 4,
+          "company_id": "test",
+          "buyer_user_id": "test",
+          "seller_user_id": "test",
+          "user_cost": "1",
+          "promo_worth": "5",
+          "seller_status": "test",
+          "user_status": "test",
+          "active": "test",
+          "offer_created": "timestamp",
+          "offer_link": "https://auth.uber.com/login/?uber_client_name=riderSignUp&"
+        },{
+          "offer_id": 5,
+          "company_id": "test",
+          "buyer_user_id": "test",
+          "seller_user_id": "test",
+          "user_cost": "1",
+          "promo_worth": "5",
+          "seller_status": "test",
+          "user_status": "test",
+          "active": "test",
+          "offer_created": "timestamp",
+          "offer_link": "https://auth.uber.com/login/?uber_client_name=riderSignUp&"
+        }
+    ]

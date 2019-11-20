@@ -1,0 +1,52 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!--References bootstrap stylesheet-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body style="margin: 20px">
+     <!--
+Companies will actually appear in the table when companies in the DB have >1 offer.
+
+When users click a link and are directed to a site, they will be emailed with the confirmation link that the offer was completed
+-->
+<div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4">
+            <!--Styles header-->
+            <div style="text-align:right">
+            <button type="button" class="btn btn-primary">Sign Up</button>
+            <button type="button" class="btn btn-primary">Log In</button>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4">
+            <!--Styles header-->
+              <div>
+                <br/>
+                <p>Welcome to CodeSwap! To begin swapping codes and saving money, please sign up.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4">
+            <!--Styles header-->
+              <div>
+                  <h1>Current Offers</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div>
+                    <!--Creates ID for loader and styles laoder-->
+                    <div id = "result"></div>
+            </div>
+        </div>
+      </div>
+</div>
+    <!--References main JS file-->
+    <script src="./script.js"></script>
+
+  </body>
